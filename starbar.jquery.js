@@ -1,5 +1,4 @@
 
-
 (function($, window, document, undefined){
 
     
@@ -83,7 +82,6 @@
 
             // Update the current star
             this.currentHover = number;
-            //this.updateOptions( { rating: number } );
             hoveredStar.attr("src", this.options.imageSrcFilled);
 
             var $images = this.elem.find("img");
@@ -136,8 +134,6 @@
     }
     
     $.fn.starbar = function( options ) {
-        //var starbar = Object.create( StarBar );
-        //starbar.init( options, this );
         var sb = new StarBarClass();
         sb.init( options, this );
     };
