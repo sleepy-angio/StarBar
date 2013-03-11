@@ -6,7 +6,7 @@ Simple jQuery plugin for rating (similar to IMDB).
 
 Options
 -------
-Options available for overrides.
+Available options:
 
 - rating: Number of filled stars
 - locked: Locked for voting (true or false)
