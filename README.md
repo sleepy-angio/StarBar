@@ -19,4 +19,31 @@ Options available for overrides.
 Example
 -------
 ```javascript
-$("div").starbar();
+<!DOCTYPE html>
+<head>
+  <title>Starbar Demo</title>
+  
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="starbar.jquery.js"></script>
+ 
+</head>
+<body>
+
+  <div class="starbar"></div>
+
+  <p class="vote"></p>
+
+  <script>
+
+    $(".starbar").starbar({
+      rating: 5,
+      starSize: "16px",
+      onClick: function(vote){
+        $(".vote").html(vote);
+      }
+    });
+
+  </script>
+
+</body>
+</html>
