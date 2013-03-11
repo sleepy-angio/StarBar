@@ -15,3 +15,8 @@ Options available for overrides.
 - imageSrcEmpty: Url to empty star image
 - marginRight: Margin between the stars
 - onClick: Callback function when clicking on a star
+
+Example
+-------
+```javascript
+$("div").starbar();
