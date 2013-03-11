@@ -13,6 +13,7 @@ Options available for overrides.
 - numberOfStars: The total amount of stars
 - imageSrcFilled: Url to filled star image
 - imageSrcEmpty: Url to empty star image
+- starSize: Size of a star (default images are 32x32 pixels)
 - marginRight: Margin between the stars
 - onClick: Callback function when clicking on a star
 
